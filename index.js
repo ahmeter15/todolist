@@ -101,6 +101,8 @@ app.get("/", function(req, res){
     res.send("hoşgeldin.");
 })
 
+
+
 let port = process.env.PORT;
 if(port == "" || port == null){
   port = 5000;
